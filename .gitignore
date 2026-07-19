@@ -4,7 +4,7 @@ node_modules
 .vars
 .secrets
 .input
-
+#.gitignore
 *.exe
 vencord_installer
 equicord_installer
@@ -25,7 +25,7 @@ lerna-debug.log*
 *.tsbuildinfo
 
 .modules/
-src/userplugins
+# src/userplugins
 
 ExtensionCache/
 /settings
